@@ -13,4 +13,6 @@ program
   .version(msg.version, '-v, --version')
   .usage('<command> [option]')
   .description('Desc: create and handle project by ird')
+  .command('list', 'checklist the command of tool')
+  .command('md5', 'generate the value of md5 when input ecif')
   .parse(process.argv);
