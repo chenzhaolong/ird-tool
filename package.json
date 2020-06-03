@@ -1,0 +1,32 @@
+{
+  "name": "ird-tool",
+  "version": "1.0.0",
+  "description": "tool",
+  "main": "cmd/tool.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhaolong/ird-tool.git"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "dragonchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenzhaolong/ird-tool/issues"
+  },
+  "homepage": "https://github.com/chenzhaolong/ird-tool#readme",
+  "bin": {
+    "tool": "cmd/tool.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
