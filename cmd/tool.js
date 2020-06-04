@@ -13,6 +13,7 @@ program
   .version(msg.version, '-v, --version')
   .usage('<command> [option]')
   .description('Desc: create and handle project by ird')
-  .command('list', 'checklist the command of tool')
   .command('md5', 'generate the value of md5 when input ecif')
+  .command('sql', 'generate the sql what you want when input table name and reportId')
+  .command('see', 'read the docs of collection')
   .parse(process.argv);
